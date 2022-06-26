@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width", initial-scale=1.0" />
+    <link rel="stylesheet" href="treasure-hunt.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.FYQZzkVRZG44ck8AXwImgAHaD4%26pid%3DApi&f=1"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Creepster&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Ghost Hunt</title>
+  </head>
+  <body>
+    <style>
+      body {
+        background-image: url(https://13thhour.com/wp-content/uploads/original.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+    </style>
+
+    <h1 class="animation">Ghost Hunt</h1>
+
+    <div class="rule-box">
+      <h2>Ghost Hunt Rules:</h2>
+      <ul>
+        <li class="rules">Rule #1: Click the boxes to reveal the answer</li>
+        <li class="rules">Rule #2: If you find the friendly ghost, you win</li>
+        <li class="rules">Rule #3: If you find a monster, you lose</li>
+        <li class="rules">Rule #4: Run out of clicks, you lose</li>
+      </ul>
+    </div>
+
+    <div class="game-table">
+      <table border="3" class="table">
+        <tr>
+          <td id="0" onclick="spot(0)">?</td>
+          <td id="1" onclick="spot(1)">?</td>
+          <td id="2" onclick="spot(2)">?</td>
+        </tr>
+        <tr>
+          <td id="3" onclick="spot(3)">?</td>
+          <td id="4" onclick="spot(4)">?</td>
+          <td id="5" onclick="spot(5)">?</td>
+        </tr>
+        <tr>
+          <td id="6" onclick="spot(6)">?</td>
+          <td id="7" onclick="spot(7)">?</td>
+          <td id="8" onclick="spot(8)">?</td>
+        </tr>
+        <tr>
+          <td id="9" onclick="spot(9)">?</td>
+          <td id="10" onclick="spot(10)">?</td>
+          <td id="11" onclick="spot(11)">?</td>
+        </tr>
+        <tr>
+          <td id="12" onclick="spot(12)">?</td>
+          <td id="13" onclick="spot(13)">?</td>
+          <td id="14" onclick="spot(14)">?</td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <p class="clicks">Clicks Remaining: <a id="counter">10</a></p>
+    </div>
+    <div class="button">
+      <button type="button" onclick="location.reload()">Restart Game</button>
+    </div>
+
+    <div>
+      <footer>&copy Chris Remington | Katherine Finnegan | Hieu Le</footer>
+      <footer>
+        <a
+          class="ghost-hunt"
+          href="http://www.ghosthunting101.com/"
+          target="_blank"
+          >Ghost Hunting 101</a>
+      </footer>
+    </div>
+    <script type="text/javascript" src="treasure-hunt.js"></script>
+  </body>
+</html>

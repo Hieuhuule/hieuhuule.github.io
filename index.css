@@ -49,7 +49,7 @@ p {
   font-weight: 600;
   color: #353535;
   font-size: 2vw;
-  letter-spacing: 0.5vw;
+  letter-spacing: 1vw;
 }
 
 h4 {
@@ -63,6 +63,7 @@ li {
   color: #354f52;
   font-size: 1.5vw;
 }
+
 
 .learn-link a:link {
   color: #2f3e46;
@@ -107,15 +108,15 @@ li {
 
 .intro-p {
   padding-left: 1vw;
-  font-size: 2vw;
-  padding-bottom: 20px;
+  font-size: 3vw;
+  padding-bottom: 3vw;
   
 }
 
 .landing {
   background-color: #dfeee6;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
 }
 
 
@@ -128,7 +129,6 @@ img {
 .landing-text {
   height:auto;
   width: 60%;
-  padding-right: 10px;
 }
 
 /* ABOUT ME SECTION */
@@ -147,10 +147,7 @@ ul {
   font-weight: 900;
 }
 
-li {
-  padding-bottom: 1vw;
-  color:#127960
-}
+
 
 /* EXPERIENCE SECTION */
 

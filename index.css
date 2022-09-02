@@ -5,6 +5,7 @@
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  font-family: 'Source sans pro', sans-serif;
 }
 
 /* Style the links inside the navigation bar */
@@ -14,7 +15,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 3vw;
 }
 
 /* Change the color of links on hover */
@@ -47,14 +48,14 @@ p {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
   color: #353535;
-  font-size: 20px;
+  font-size: 2vw;
   letter-spacing: 1.5px;
 }
 
 h4, li {
   font-family: 'Roboto Mono', sans-serif;
   color: #354f52;
-  font-size: larger;
+  font-size: 2vw;
 }
 
 .learn-link a:link {
@@ -76,44 +77,38 @@ h4, li {
 }
 
 /* Landing Section */
+.img-container {
+  padding-top: 5%;
+  max-width: 100%;
+}
+
 .small-intro {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 1000;
   color: #127960;
-  padding-left: 80px;
-  font-size: 20px;
+  padding-left: 20px;
+  font-size: 4vw;
 }
 
 .intro-name {
-  padding-left: 80px;
-  font-size: 50px;
+  padding-left: 20px;
+  font-size: 8vw;
   font-weight: bolder;
 }
 
 .intro-p {
-  padding-left: 80px;
-  font-size: 20px;
+  padding-left: 20px;
+  font-size: 2vw;
+  padding-bottom: 20px;
   
 }
 
-.profile-photo {
-  width: 300px;
-  padding-right: 30px;
-  padding-left: 20px;
-}
-
 .landing {
-  display: flex;
-  align-items: flex-start;
   background-color: #dfeee6;
-  padding-top: 80px;
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.img-container {
-  padding-top: 30px;
-  padding-right: 100px;
-}
 
 img {
   max-width: 100%;
@@ -144,7 +139,7 @@ ul {
 }
 
 li {
-  padding-bottom: 10px;
+  padding-bottom: 1vw;
   color:#127960
 }
 
@@ -175,4 +170,5 @@ li {
   display: flex;
   justify-content: center;
 }
+
 

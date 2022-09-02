@@ -52,10 +52,16 @@ p {
   letter-spacing: 1.5px;
 }
 
-h4, li {
+h4 {
   font-family: 'Roboto Mono', sans-serif;
   color: #354f52;
   font-size: 2vw;
+}
+
+li {
+  font-family: 'Roboto Mono', sans-serif;
+  color: #354f52;
+  font-size: 1.5vw;
 }
 
 .learn-link a:link {
@@ -80,6 +86,9 @@ h4, li {
 .img-container {
   padding-top: 5%;
   max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .small-intro {

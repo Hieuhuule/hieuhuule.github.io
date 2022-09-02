@@ -1,0 +1,178 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #6b9080;
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #cce3de;
+  color: #354f52;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #a4c3b2;
+  color: white;
+}
+
+/* Clicking links on page scrolls smoothly */
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  color: #6b9080;
+}
+
+body {
+  background-color: #eaf4f4;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  color: #353535;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+
+h4, li {
+  font-family: 'Roboto Mono', sans-serif;
+  color: #354f52;
+  font-size: larger;
+}
+
+.learn-link a:link {
+  color: #2f3e46;
+}
+
+.learn-link a:visited {
+  color: #2f3e46;
+}
+
+.learn-link a:hover {
+  color: #cce3de;
+}
+
+
+/* creates space between divs */
+.spacer {
+  height: 15x;
+}
+
+/* Landing Section */
+.small-intro {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 1000;
+  color: #127960;
+  padding-left: 80px;
+  font-size: 20px;
+}
+
+.intro-name {
+  padding-left: 80px;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.intro-p {
+  padding-left: 80px;
+  font-size: 20px;
+  
+}
+
+.profile-photo {
+  width: 300px;
+  padding-right: 30px;
+  padding-left: 20px;
+}
+
+.landing {
+  display: flex;
+  align-items: flex-start;
+  background-color: #dfeee6;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.img-container {
+  padding-top: 30px;
+  padding-right: 100px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
+.landing-text {
+  height:auto;
+  width: 60%;
+  padding-right: 10px;
+}
+
+/* ABOUT ME SECTION */
+
+.about, .experience, .projects, .contact {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #dfeee6;
+}
+
+ul {
+  columns: 10px 2;
+  padding-top: 20px;
+  font-weight: 900;
+}
+
+li {
+  padding-bottom: 10px;
+  color:#127960
+}
+
+/* EXPERIENCE SECTION */
+
+.first-experience {
+  border-color: #2f3e46;
+  border-style: solid;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #c4ded4;
+
+}
+
+/* PROJECTS SECTION */
+
+.projects-tbd {
+  border-color: #2f3e46;
+  border-style: solid;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #c4ded4;
+}
+
+
+/* CONTACT SECTION */
+.end-img {
+  display: flex;
+  justify-content: center;
+}
+

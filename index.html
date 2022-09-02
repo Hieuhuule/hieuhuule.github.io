@@ -1,92 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width", initial-scale=1.0" />
-    <link rel="stylesheet" href="treasure-hunt.css" />
+<html>
+
+<head>
+    <title>Hieu Le Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
     <link
-      rel="icon"
-      type="image/x-icon"
-      href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.FYQZzkVRZG44ck8AXwImgAHaD4%26pid%3DApi&f=1"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Creepster&display=swap"
-      rel="stylesheet"
-    />
+        href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Source+Sans+Pro:wght@200&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
 
-    <title>Ghost Hunt</title>
-  </head>
-  <body>
-    <style>
-      body {
-        background-image: url(https://13thhour.com/wp-content/uploads/original.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-      }
-    </style>
 
-    <h1 class="animation">Ghost Hunt</h1>
+</head>
+<!-- menu -->
+<nav>
+    <div class="topnav">
+        <!-- maybe change the home button to an icon -->
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a class="active" href="https://drive.google.com/file/d/1i8pGMhUV803lgrJi5ZTwEqYrL81jXlyx/view?usp=sharing" download="" target="_blank">Resume</a>
+    </div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
 
-    <div class="rule-box">
-      <h2>Ghost Hunt Rules:</h2>
-      <ul>
-        <li class="rules">Rule #1: Click the boxes to reveal the answer</li>
-        <li class="rules">Rule #2: If you find both the friendly ghost, you win</li>
-        <li class="rules">Rule #3: If you find a monster, you lose</li>
-        <li class="rules">Rule #4: Run out of clicks, you lose</li>
-      </ul>
+</nav>
+
+<!-- left side scroller with social media icons and github-->
+<!-- right side scroller with email address -->
+
+<!-- !PAGE CONTENT! -->
+
+<body>
+    <!--Landing-->
+    <div class="landing">
+        <div class="landing-text">
+            <p class="small-intro">Hi, my name is</p>
+            <h1 class="intro-name">Hieu Le</h1>
+            <p class="intro-p">I build things for the web.</p>
+            <p class="learn-link intro-p">I'm a software engineer specializing in ReactJS and Ruby. Currently, reviewing
+                fundamental principles of web development at <a
+                    href="https://www.learnacademy.org/current-curriculum/" target="_blank">LEARN Academy</a></p>
+        </div>
+        <div class="img-container">
+            <img class="profile-photo"
+                src="https://scontent.feoh3-1.fna.fbcdn.net/v/t1.6435-9/153025125_10160744587673082_1767309938575381899_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeH87cPvyUDEKhGLD1cRDgmcnlI1B_nfXRSeUjUH-d9dFECVLAuY7E6qoufidkE6ENo&_nc_ohc=snExTdxLwtkAX-OVWcE&_nc_ht=scontent.feoh3-1.fna&oh=00_AT8QvGOMmENJq61yIBhygCehCFkUgLeqr-VgZCNDOoa4aA&oe=63379FFE"
+                alt="photo of Hieu Le">
+        </div>
     </div>
 
-    <div class="game-table">
-      <table border="3" class="table">
-        <tr>
-          <td id="0" onclick="spot(0)">?</td>
-          <td id="1" onclick="spot(1)">?</td>
-          <td id="2" onclick="spot(2)">?</td>
-        </tr>
-        <tr>
-          <td id="3" onclick="spot(3)">?</td>
-          <td id="4" onclick="spot(4)">?</td>
-          <td id="5" onclick="spot(5)">?</td>
-        </tr>
-        <tr>
-          <td id="6" onclick="spot(6)">?</td>
-          <td id="7" onclick="spot(7)">?</td>
-          <td id="8" onclick="spot(8)">?</td>
-        </tr>
-        <tr>
-          <td id="9" onclick="spot(9)">?</td>
-          <td id="10" onclick="spot(10)">?</td>
-          <td id="11" onclick="spot(11)">?</td>
-        </tr>
-        <tr>
-          <td id="12" onclick="spot(12)">?</td>
-          <td id="13" onclick="spot(13)">?</td>
-          <td id="14" onclick="spot(14)">?</td>
-        </tr>
-      </table>
+    <div class="spacer" id="about"></div>
+
+    <!-- About Me -->
+    <div class="about">
+        <h1>About Me</h1>
+        <p>Hi! My name is Hieu (pronounced like 'Hugh') and I'm a US military veteran who took a drastic career change
+            to software engineering in 2020. I loaded up on online learning before making the jump to a full time
+            program to learn the skills that I couldn't learn as a self-taught programmer, like how to work in an AGILE
+            development environment.</p>
+
+        <p>On my free time, you can catch me working on projects to learn new skillsets and adding projects to my
+            portfolio</p>
+
+        <p>Here are a few technologies I've been working with recently:</p>
+        <ul>
+            <li>JavaScript (ES6+)</li>
+            <li>React</li>
+            <li>Ruby</li>
+            <li>Rails</li>
+            <li>SQL</li>
+            <li>HTML & CSS</li>
+        </ul>
     </div>
-    <div>
-      <p class="clicks">Clicks Remaining: <a id="counter">10</a></p>
-    </div>
-    <div class="button">
-      <button type="button" onclick="location.reload()">Restart Game</button>
+    <div class="spacer" id="experience"></div>
+
+    <!-- Experience -->
+    <div class="experience">
+        <h1>Experience</h1>
+        <div class="first-experience">
+            <h4 class="learn-link">Full Stack Developer Student @ <a href="https://www.learnacademy.org/" target="_blank">LEARN
+                    Academy</a>
+            </h4>
+            <p>Learned the fundamental knowledge required to design and develop full stack web applications using Ruby,
+                Rails, SQL, Javascript, React, HTML and CSS.</p>
+            <p>Utilized server-side web application development using the Ruby on Rails MVC framework and client-side
+                interactive page design in Javascript. </p>
+            <p>Learned language syntax and interaction between all components to create a full stack, dynamic, and
+                mobile
+                responsive web application, with a focus on core programming principles like logic control structures,
+                and
+                database schema design to be adaptable to the quickly evolving web development ecosystem.</p>
+            <p>Engaged in team and pair programming workflows with a focus on Agile and SCRUM methodologies common among
+                modern professional software development environments.</p>
+        </div>
     </div>
 
-    <div>
-      <footer>&copy Chris Remington | Katherine Finnegan | Hieu Le</footer>
-      <footer>
-        <a
-          class="ghost-hunt"
-          href="http://www.ghosthunting101.com/"
-          target="_blank"
-          >Ghost Hunting 101</a>
-      </footer>
+    <div class="spacer" id="projects"></div>
+
+    <!-- Projects -->
+    <div class="projects">
+        <h1>Projects</h1>
+        <p>Here are some of the projects that I've been working on recently:</p>
+        <!-- show featured projects -->
+        <div class="projects-tbd">
+            <ul>
+                <li>Budget Tracker App (React)</li>
+                <li>CLI Text-Based Adventure (Ruby)</li>
+                <li>Pig Latin Translator (JavaScript)</li>
+                <li>Cat Tinder (React)</li>
+                <li>AirBnB Clone (React)</li>
+                <li>Apartment App (Rails)</li>
+            </ul>
+        </div>
+        <p class="learn-link">If you'd like to see more of my work, check out my <a href="https://github.com/Hieuhuule" target="_blank">Github</a></p>
+        <!-- show other projects -->
     </div>
-    <script type="text/javascript" src="treasure-hunt.js"></script>
-  </body>
+
+    <div class="spacer" id="contact"></div>
+
+    <!-- Contact -->
+    <div class="contact">
+        <h4>What's next?</h4>
+        <h1>Get In Touch</h1>
+        <p class="learn-link">I'm currently looking for new opportunities to learn and contribute, so feel free to reach out to my email at
+            hieuhuule@gmail.com or on <a href="https://www.linkedin.com/in/hieu-h-le/" target="_blank">LinkedIn</a> and I'll do my best to get back to
+            you!</p>
+    </div>
+    <div class="end-img">
+        <img src="https://scontent.feoh3-1.fna.fbcdn.net/v/t1.6435-9/89436757_10159499733493082_1767516580041719808_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEjnlfi2V_vS_owNUzf9vBWzivyJuWSwlXOK_Im5ZLCVfFT6n67OH5bCEqeEYAGlms&_nc_ohc=zPPha7Z9cfgAX9dnATG&_nc_ht=scontent.feoh3-1.fna&oh=00_AT8SQJd1mmZ-5VdSC5JHk0UR0VGa2mqTdBHW_X233xqewQ&oe=633741A1"
+            alt="photo of Hieu frustrated at a computer">
+    </div>
+
+</body>
+<!-- End page content -->
+
+<!-- footer -->
+<!-- link to website repo -->
+
 </html>

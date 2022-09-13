@@ -6,6 +6,8 @@
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   font-family: 'Source sans pro', sans-serif;
+  display: flex;
+  justify-content: center;
   
 }
 
@@ -36,6 +38,13 @@ html {
   scroll-behavior: smooth;
 }
 
+.content {
+  margin: 0 auto;
+}
+
+.image-container {
+}
+
 h1 {
   font-family: 'Roboto Mono', monospace;
   color: #6b9080;
@@ -45,8 +54,8 @@ h1 {
 
 body {
   background-color: #eaf4f4;
-  width: 960px; 
-  margin:0 auto
+  margin: 0 auto;
+  
 }
 
 p {
@@ -93,9 +102,8 @@ li {
 .img-container {
   padding-top: 5%;
   max-width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+
 }
 
 .small-intro {
@@ -123,6 +131,7 @@ li {
   background-color: #dfeee6;
   padding-top: 3vw;
   padding-bottom: 1vh;
+
 }
 
 
@@ -145,6 +154,7 @@ img {
   padding-bottom: 5vh;
   padding-top: 5px;
   background-color: #dfeee6;
+  
 }
 
 ul {

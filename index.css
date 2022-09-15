@@ -44,6 +44,7 @@
   .topnav a.icon {
     float: right;
     display: block;
+    
   }
 }
 
@@ -67,12 +68,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.img-container {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
 
 h1 {
   font-family: 'Roboto Mono', monospace;
@@ -84,6 +79,7 @@ h1 {
 body {
   background-color: #eaf4f4;
   margin: 0 auto;
+  max-width: 960px;
 }
 
 p {
@@ -156,6 +152,14 @@ li {
 
 }
 
+.img-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 img {
   max-width: 100%;

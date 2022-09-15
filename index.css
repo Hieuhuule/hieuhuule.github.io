@@ -36,6 +36,13 @@ html {
   scroll-behavior: smooth;
 }
 
+.img-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 h1 {
   font-family: 'Roboto Mono', monospace;
   color: #6b9080;
@@ -129,6 +136,7 @@ img {
   max-width: 100%;
   height: auto;
   width: auto\9; /* ie8 */
+  
 
 }
 

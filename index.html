@@ -6,25 +6,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Source+Sans+Pro:wght@200&family=Ubuntu:wght@300&display=swap"
         rel="stylesheet">
-
-
 </head>
 <!-- menu -->
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <nav>
-    <div class="topnav">
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-         <a class="active" href="https://drive.google.com/file/d/1KgDGUEO97CbUq-Z-3jkfSx3njy-3etwS/view?usp=sharing"
+<div class="topnav" id="myTopnav">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <a class="active" href="https://drive.google.com/file/d/1KgDGUEO97CbUq-Z-3jkfSx3njy-3etwS/view?usp=sharing"
             download="" target="_blank">Resume</a>
-    </div>
-        <div class="spacer"></div>
-        <div class="spacer"></div>
-   </nav>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+</nav>
+
 <!-- left side scroller with social media icons and github-->
 <!-- right side scroller with email address -->
 
@@ -32,7 +36,7 @@
 
 <body>
     <!--Landing-->
-    <div class="img-container">
+    <div class="img-container" id="home">
         <img class="profile-photo"
             src="https://i.postimg.cc/NjngZMHs/politics-photo-50.jpg"
             alt="photo of Hieu Le">

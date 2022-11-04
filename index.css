@@ -103,6 +103,9 @@ li {
   padding-bottom: 20px;
 }
 
+.learn-link {
+  text-decoration: none;
+}
 
 .learn-link a:link {
   color: #2f3e46;

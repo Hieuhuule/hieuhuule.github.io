@@ -77,6 +77,20 @@ body {
   background-color: #eaf4f4;
 }
 
+.parallax {
+  /* The image used */
+  /* background-image: url("assets/pexels-luis-del-río-15286.jpg"); */
+
+  /* Set a specific height */
+  /* min-height: 500px; */
+
+  /* Create the parallax scrolling effect */
+  /* background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
 .content-container {
   margin: 0 auto;
   max-width: 960px;

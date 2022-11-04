@@ -78,6 +78,9 @@ h1 {
 
 body {
   background-color: #eaf4f4;
+}
+
+.content-container {
   margin: 0 auto;
   max-width: 960px;
 }
